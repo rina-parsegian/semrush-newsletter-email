@@ -1,0 +1,135 @@
+<mjml>
+  <mj-head>
+    <mj-title>Semrush Newsletter</mj-title>
+    <mj-attributes>
+      
+    </mj-attributes>
+    <mj-style>
+      
+      /* 479px or smaller apply these styles */
+      @media only screen and (max-width: 479px) {
+        .link-1 {
+          text-align: center !important;
+        }
+      }
+      
+    </mj-style>
+    <mj-style inline="inline">
+      .link-1 {
+        text-decoration: underline;
+        color: #0082e5;
+        display: block;
+      }
+
+      .article-button {
+        text-decoration: none;
+        color: #ffffff;
+      }
+      
+    </mj-style>
+  </mj-head>
+  <mj-body width="680px" background-color="#f6f7f8">
+    <mj-section padding="10px 0"></mj-section>
+    <!-- header section -->
+    </mj-section>
+    <mj-wrapper background-color="#ffffff" border-radius="10px" padding="40px 40px 50px">
+      <mj-section padding="40px 40px 10px" background-color="#421883" border-radius="10px 10px 0 0">
+        <mj-column>
+          <mj-image src="http://192.168.0.15:5500/assets/learning-title.png" alt="sem rush learning title" width="120px" height="auto" padding="0"/>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="10px 40px 10px" background-color="#421883">
+        <mj-column>
+          <mj-text font-size="40px" font-family="Helvetica, Arial, sans-serif" font-weight="bold" color="#ffffff" align="center" padding="0" line-height="1.6">
+            What's New
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="10px 40px 40px" background-color="#421883" border-radius="0 0 10px 10px">
+        <mj-column>
+          <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#ffffff" align="center" padding="0" line-height="1.6">
+            How to find and fix common SEO issues, SEO vs SEM, and the best market research tools
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- top section -->
+      <mj-section padding="30px 0px 20px" background-color="#ffffff">
+        <mj-column>
+          <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="0 0 10px" line-height="1.6" align="left">
+            Hi there,
+          </mj-text>
+          <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="0" line-height="1.6" align="left">
+            Here are three resources to help you rank higher and drive business growth:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="10px 0px 10px" background-color="#ffffff">
+        <mj-column width="20%">
+          <mj-image src="http://192.168.0.15:5500/assets/cap.png" alt="cap icon" width="32px" padding="0"/>
+        </mj-column>
+        <mj-column width="80%">
+          <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="5px 0 0" line-height="1.6">
+            <a href="https://www.semrush.com/blog/biggest-seo-mistakes/?utm_source=marketo&utm_medium=email&utm_campaign=engage_brand_EduNewsletterOthers_mass_en_090224_free_newsletter&utm_content=blog&mkt_tok=NTE5LUlJWS04NjkAAAGRLT38UNyogBg4186pfkcMNan18pSmSLnglfJAhZUnTMrbuqS6QNSGmfQW_XrOWtm3HCivpyulHr59Ojv0nZQicotoDaQxwsycXLWl1jAUTraXAw" class="link-1">Common SEO Issues & How To Fix Them</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="10px 0px 10px" background-color="#ffffff">
+        <mj-column width="20%">
+          <mj-image src="http://192.168.0.15:5500/assets/cap.png" alt="cap icon" width="32px" padding="0"/>
+        </mj-column>
+        <mj-column width="80%">
+          <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="5px 0 0" line-height="1.6">
+            <a href="https://www.semrush.com/blog/seo-vs-sem/?utm_source=marketo&utm_medium=email&utm_campaign=engage_brand_EduNewsletterOthers_mass_en_090224_free_newsletter&utm_content=blog&mkt_tok=NTE5LUlJWS04NjkAAAGRLT38UIDy1ZuroEms0jPL_2vPiqbjnimIh2yXAhs6A_P3cXvzSDL99w4c0YqZB1_x7AL6hQaBlfO3G0gLQJ71H7PhdxQCIIDlWNfe7MgsoMlx5g" class="link-1">SEO vs. Differences in Techniques, Costs, & Results</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="10px 0px 30px" background-color="#ffffff">
+        <mj-column width="20%">
+          <mj-image src="http://192.168.0.15:5500/assets/cap.png" alt="cap icon" width="32px" padding="0"/>
+        </mj-column>
+        <mj-column width="80%">
+          <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="5px 0 0" line-height="1.6">
+            <a href="https://www.semrush.com/blog/seo-vs-sem/?utm_source=marketo&utm_medium=email&utm_campaign=engage_brand_EduNewsletterOthers_mass_en_090224_free_newsletter&utm_content=blog&mkt_tok=NTE5LUlJWS04NjkAAAGRLT38UIDy1ZuroEms0jPL_2vPiqbjnimIh2yXAhs6A_P3cXvzSDL99w4c0YqZB1_x7AL6hQaBlfO3G0gLQJ71H7PhdxQCIIDlWNfe7MgsoMlx5g" class="link-1">11 Best Market Research Tools: Features & Pricing</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- start of blog section -->
+      <mj-section padding="30px 0px 3px" background-color="#ffffff">
+        <mj-column>
+          <mj-button font-size="14px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" background-color="#f6f7f8" inner-padding="6px 10px 8px"  line-height="1.6" border-radius="6px" padding="0 0 10px" align="left">
+            Blog Article
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="3px 0 15px" background-color="#ffffff">
+        <mj-column>
+          <mj-image src="http://192.168.0.15:5500/assets/content-title.png" alt="blog article banner" width="600px" padding="0"/>
+        </mj-column>
+      </mj-section>
+
+      <!-- content section -->
+      <mj-section padding="15px 0px 20px" background-color="#ffffff">
+        <mj-column>
+          <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="0" line-height="1.6" align="left">
+            SEO issues are incredibly common. You may not even realize they’re plaguing your site. And they can hurt your ability to rank. Here’s how to find and fix common SEO issues that may be holding your site back.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- article button link -->
+      <mj-section padding="5px 0px 10px" background-color="#ffffff">
+        <mj-column>
+          <mj-button font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#ffffff" background-color="#ff642d" inner-padding="10px 30px"  line-height="1.6" border-radius="6px" padding="0" align="left">
+            <a href="https://www.semrush.com/blog/biggest-seo-mistakes/?utm_source=marketo&utm_medium=email&utm_campaign=engage_brand_EduNewsletterOthers_mass_en_090224_free_newsletter&utm_content=blog&mkt_tok=NTE5LUlJWS04NjkAAAGRLT38UCI5ME_84-a_KVSZJfo-6S9B8KJDThFaKWGi0osVhI40FFdOx1JvHQuC6MUs0spBlHgLO6FB5qrG6huscjG66XtyEurAswBDbpG4AeeESw" class="article-button">Read the article</a>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
