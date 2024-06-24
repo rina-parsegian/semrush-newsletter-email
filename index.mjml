@@ -5,12 +5,51 @@
       
     </mj-attributes>
     <mj-style>
+
+      .icons {
+        max-width: 300px;
+      }
+
+      .footer-subs {
+        max-width: 200px;
+      }
+
       
+
       /* 479px or smaller apply these styles */
       @media only screen and (max-width: 479px) {
         .link-1 {
           text-align: center !important;
         }
+
+        .sem-img {
+          padding: 0 0 10px 0 !important;
+        }
+
+        .research-img {
+          padding: 0 0 10px 0 !important;
+        }
+
+        .blog-right {
+          display: none !important;
+        }
+
+        .title-right {
+          padding-left: 0px !important;
+        }
+
+        .content-right {
+          padding-left: 0px !important;
+        }
+
+        .article-link {
+          padding-left: 0px !important;
+        }
+
+        .neutral-icon {
+          padding: 20px 0 !important;
+        }
+
       }
       
     </mj-style>
@@ -25,14 +64,34 @@
         text-decoration: none;
         color: #ffffff;
       }
-      
+
+      .left-article--link {
+        text-decoration: underline;
+        color: #0082e5;
+      }
+
+      .right-article--link {
+        text-decoration: underline;
+        color: #0082e5;
+      }
+
+      .footer-link {
+        text-decoration: none;
+        font-weight: 600;
+        color: #171a22;
+      }
+
+      .sub-link {
+        text-decoration: underline;
+        color: #171a22;
+      }
+
     </mj-style>
   </mj-head>
   <mj-body width="680px" background-color="#f6f7f8">
     <mj-section padding="10px 0"></mj-section>
     <!-- header section -->
-    </mj-section>
-    <mj-wrapper background-color="#ffffff" border-radius="10px" padding="40px 40px 50px">
+    <mj-wrapper background-color="#ffffff" border-radius="10px" padding="40px 40px 40px">
       <mj-section padding="40px 40px 10px" background-color="#421883" border-radius="10px 10px 0 0">
         <mj-column>
           <mj-image src="http://192.168.0.15:5500/assets/learning-title.png" alt="sem rush learning title" width="120px" height="auto" padding="0"/>
@@ -106,6 +165,8 @@
           </mj-button>
         </mj-column>
       </mj-section>
+
+      <!-- blog banner -->
       <mj-section padding="3px 0 15px" background-color="#ffffff">
         <mj-column>
           <mj-image src="http://192.168.0.15:5500/assets/content-title.png" alt="blog article banner" width="600px" padding="0"/>
@@ -122,14 +183,204 @@
       </mj-section>
 
       <!-- article button link -->
-      <mj-section padding="5px 0px 10px" background-color="#ffffff">
+      <mj-section padding="5px 0px 25px" background-color="#ffffff">
         <mj-column>
           <mj-button font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#ffffff" background-color="#ff642d" inner-padding="10px 30px"  line-height="1.6" border-radius="6px" padding="0" align="left">
-            <a href="https://www.semrush.com/blog/biggest-seo-mistakes/?utm_source=marketo&utm_medium=email&utm_campaign=engage_brand_EduNewsletterOthers_mass_en_090224_free_newsletter&utm_content=blog&mkt_tok=NTE5LUlJWS04NjkAAAGRLT38UCI5ME_84-a_KVSZJfo-6S9B8KJDThFaKWGi0osVhI40FFdOx1JvHQuC6MUs0spBlHgLO6FB5qrG6huscjG66XtyEurAswBDbpG4AeeESw" class="article-button">Read the article</a>
+            <a href="https://www.semrush.com/blog/biggest-seo-mistakes/?utm_source=marketo&utm_medium=email&utm_campaign=engage_brand_EduNewsletterOthers_mass_en_090224_free_newsletter&utm_content=blog&mkt_tok=NTE5LUlJWS04NjkAAAGRLT38UCI5ME_84-a_KVSZJfo-6S9B8KJDThFaKWGi0osVhI40FFdOx1JvHQuC6MUs0spBlHgLO6FB5qrG6huscjG66XtyEurAswBDbpG4AeeESw" class="article-button">Read the Article</a>
           </mj-button>
         </mj-column>
       </mj-section>
 
+      <!-- start of 2 column blog section -->
+      <mj-section padding="25px 0px 5px" background-color="#ffffff">
+        <mj-column>
+          <mj-button font-size="14px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" background-color="#f6f7f8" inner-padding="6px 10px 8px"  line-height="1.6" border-radius="6px" padding="0 0 10px" align="left">
+            Blog Articles
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    
+      <!-- article columns -->
+      <mj-section padding="3px 0 25px">
+        <mj-column>
+          <mj-image src="http://192.168.0.15:5500/assets/sem.png" alt="seo vs sem and seo image" padding="0 12px 0 0" css-class="sem-img" align="left"/>
+          <mj-text font-size="26px" font-family="Helvetica, Arial, sans-serif" font-weight="bold" color="#171a22" padding="16px 0 5px 0" line-height="1.6" css-class="title-left">
+            SEO vs. SEM
+          </mj-text>
+          <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="5px 10px 10px 0" line-height="1.6" align="left" css-class="content-left">
+            This article explores everything about search engine marketing (SEM), its different components, and how it all works. Plus, discover which SEM practice is right for you and how to build an integrated SEM strategy.
+          </mj-text>
+          <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="5px 10px 30px 0" line-height="1.6" align="left">
+            <a href="https://www.semrush.com/blog/seo-vs-sem/?utm_source=marketo&utm_medium=email&utm_campaign=engage_brand_EduNewsletterOthers_mass_en_090224_free_newsletter&utm_content=blog&mkt_tok=NTE5LUlJWS04NjkAAAGRLT38UGSesniC9_5Ylp-nzxvP7VwijeqM91tauW3vgxLeEwFmK1eXDCw4P-Z4wa-EpiaxIZXX7G3XJ7kxlgOF7m6mFFjtdRFj-y8nBFyGWIOovw" class="left-article--link">Read the article</a>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image src="http://192.168.0.15:5500/assets/research.png" alt="market image" padding="0 0 0 12px" css-class="research-img" align="left"/>
+          <mj-text font-size="26px" font-family="Helvetica, Arial, sans-serif" font-weight="bold" color="#171a22" padding="16px 0 5px 12px" line-height="1.6" align="left" css-class="title-right">
+            Market Research
+          </mj-text>
+          <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="5px 0 10px 12px" line-height="1.6" align="left" css-class="content-right">
+            Market research is how you find out what your customers want and need. It’s key to successfully launching, marketing, and scaling any product or business. But you need the right tools. This article reviews 11 of the best market research tools.
+          </mj-text>
+          <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="5px 0 10px 10px" line-height="1.6" align="left" css-class="article-link">
+            <a href="https://www.semrush.com/blog/seo-vs-sem/?utm_source=marketo&utm_medium=email&utm_campaign=engage_brand_EduNewsletterOthers_mass_en_090224_free_newsletter&utm_content=blog&mkt_tok=NTE5LUlJWS04NjkAAAGRLT38UGSesniC9_5Ylp-nzxvP7VwijeqM91tauW3vgxLeEwFmK1eXDCw4P-Z4wa-EpiaxIZXX7G3XJ7kxlgOF7m6mFFjtdRFj-y8nBFyGWIOovw" class="right-article--link">Read the article</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- meme section -->
+      <mj-section padding="25px 0px 5px" background-color="#ffffff">
+        <mj-column>
+          <mj-button font-size="14px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" background-color="#f6f7f8" inner-padding="6px 10px 8px"  line-height="1.6" border-radius="6px" padding="0 0 10px" align="left">
+            Meme of the Week
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- meme pic -->
+      <mj-section padding="5px 0 25px" background-color="#ffffff">
+        <mj-column>
+          <mj-image src="http://192.168.0.15:5500/assets/meme.png" alt="meme of the week photo" width="600px" padding="0"/>
+        </mj-column>
+      </mj-section>
+
+      <!-- sem logo -->
+      <mj-section padding="25px 0 25px" background-color="#ffffff">
+        <mj-group>
+          <mj-column width="10%">
+            <mj-image src="http://192.168.0.15:5500/assets/rush-icon.png" alt="semrush logo" href="https://www.semrush.com/" padding="0" width="68px" align="left"/>
+          </mj-column>
+          <mj-column padding-left="20px" vertical-align="bottom" width="90%">
+            <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="0" line-height="1.6" align="left">
+              Happy optimizing,
+            </mj-text>
+            <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="bold" color="#171a22" padding="0" line-height="1.6" align="left">
+              Semrush Team
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- divider -->
+      <mj-section padding="25px 0" background-color="#ffffff">
+        <mj-column>
+          <mj-divider border-width="1px" border-style="solid" border-color="#e9ebef" padding="0"/>
+        </mj-column>
+      </mj-section>
+
+      <!-- opinion section -->
+      <mj-section padding="20px 0 10px" background-color="#ffffff">
+        <mj-column css-class="column-left">
+          <mj-text font-size="16px" font-family="Helvetica, Arial, sans-serif" font-weight="bold" color="#575c66" padding="0px 0 5px 0" line-height="1.6" align="left">
+            How did we do?
+          </mj-text>
+          <mj-text font-size="12px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#575c66" padding="0" line-height="1.6" align="left">
+            Please take a moment to leave your feedback.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="10px 0 10px 0" background-color="#ffffff">
+        <mj-column>
+          <mj-button inner-padding="4px 16px" background-color="#f6f7f8" border-radius="8px" align="center" padding="0" href="https://semrush.typeform.com/MassPollOne?utm_source=marketo&utm_medium=email&utm_campaign=engage_brand_EduNewsletterOthers_mass_en_090224_free_newsletter&utm_content=blog&utm_term=12380164&mkt_tok=NTE5LUlJWS04NjkAAAGRLT38UIHIYpzMmEbtvViqLbsH4-t273ZUztkyZ1nBtddNmfzZA8MoEl5Z8iaVk-P6vGxiamxwOEdAdqKOKM1oTplysPyO5TnYrjmPjSI64MUhUA&typeform-source=engage.semrush.com">
+            <img src="http://192.168.0.15:5500/assets/smiling.png" style="width: 42px; vertical-align: middle;"/>
+          </mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-button inner-padding="4px 16px" background-color="#f6f7f8" border-radius="8px" align="center" padding="0" css-class="neutral-icon" href="https://semrush.typeform.com/MassPollOne?utm_source=marketo&utm_medium=email&utm_campaign=engage_brand_EduNewsletterOthers_mass_en_090224_free_newsletter&utm_content=blog&utm_term=12380164&mkt_tok=NTE5LUlJWS04NjkAAAGRLT38UIHIYpzMmEbtvViqLbsH4-t273ZUztkyZ1nBtddNmfzZA8MoEl5Z8iaVk-P6vGxiamxwOEdAdqKOKM1oTplysPyO5TnYrjmPjSI64MUhUA&typeform-source=engage.semrush.com">
+            <img src="http://192.168.0.15:5500/assets/neutral.png" style="width: 42px; vertical-align: middle;"/>
+          </mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-button inner-padding="4px 16px" background-color="#f6f7f8" border-radius="8px" align="center" padding="0" href="https://semrush.typeform.com/MassPollOne?utm_source=marketo&utm_medium=email&utm_campaign=engage_brand_EduNewsletterOthers_mass_en_090224_free_newsletter&utm_content=blog&utm_term=12380164&mkt_tok=NTE5LUlJWS04NjkAAAGRLT38UIHIYpzMmEbtvViqLbsH4-t273ZUztkyZ1nBtddNmfzZA8MoEl5Z8iaVk-P6vGxiamxwOEdAdqKOKM1oTplysPyO5TnYrjmPjSI64MUhUA&typeform-source=engage.semrush.com">
+            <img src="http://192.168.0.15:5500/assets/sad.png" style="width: 42px; vertical-align: middle;"/>
+          </mj-button>
+        </mj-column>  
+      </mj-section>
+
+      <!-- divider -->
+      <mj-section padding="40px 0" background-color="#ffffff">
+        <mj-column>
+          <mj-divider border-width="1px" border-style="solid" border-color="#e9ebef" padding="0"/>
+        </mj-column>
+      </mj-section>
+
+      <!-- social links -->
+      <mj-section padding="15px 0">
+        <mj-group css-class="icons" vertical-align="middle">
+          <mj-column>
+            <mj-image src="http://192.168.0.15:5500/assets/linkedin.png"    alt="linkedin icon" padding="0" width="32px" href="https://www.linkedin.com/semrush" align="center"/>
+          </mj-column>
+        <mj-column>
+          <mj-image src="http://192.168.0.15:5500/assets/facebook.png" alt="facebook icon" padding="0" width="32px" href="https://www.facebook.com/semrush" align="center"/>
+        </mj-column>
+        <mj-column>
+          <mj-image src="http://192.168.0.15:5500/assets/g2.png" alt="g2 icon" padding="0" width="32px" href="https://www.g2.com/products/semrush/reviews?mkt_tok=NTE5LUlJWS04NjkAAAGRLT38T4K6l8JQioRODLpb96VruoKk8Teh_Rqkbxs3HHwdiy1eKZr2rT2hP4iRt4t6eXg4UKIywuuNeLNbucJSGOYh_D78V4eX19jMKMiMwdDfeQ" align="center"/>
+        </mj-column>
+        <mj-column>
+          <mj-image src="http://192.168.0.15:5500/assets/youtube.png" alt="g2 icon" padding="0" width="32px" href="https://youtube.com/semrush" align="center"/>
+        </mj-column>
+        <mj-column>
+          <mj-image src="http://192.168.0.15:5500/assets/x.png" alt="twitter icon" padding="0" width="32px" href="https://twitter.com/semrush" align="center"/>
+        </mj-column>
+        <mj-column>
+          <mj-image src="http://192.168.0.15:5500/assets/instagram.png" alt="instagram icon" padding="0" width="32px" href="https://instagram.com/semrush" align="center"/>
+        </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- affiliate links -->
+      <mj-section padding="25px 0 5px" background-color="#ffffff">
+        <mj-column>
+          <mj-button inner-padding="4px 16px" background-color="#f6f7f8" border-radius="8px" align="center" padding="0" href="https://www.semrush.com/lp/affiliate-program/en/?mkt_tok=NTE5LUlJWS04NjkAAAGRLT38TgxOb51aRE-IFIf2KdWT2u_eTHLspnUAwzUt7mMf_357ToiNH8zQEi33PXNQ02LjZlCOzoL0yPEZ5dybdfg8AcapkTkT12hqgP5AgeQDlQ">
+            <p style="margin: 0; color: #171a22; font-family: arial; line-height: 1.6;">Semrush Newsroom
+              <img src="http://192.168.0.15:5500/assets/newspaper.png" style="width: 19px; vertical-align: middle; padding-left: 3px;"/>
+            </p>  
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="5px 0 25px" background-color="#ffffff">
+        <mj-column>
+          <mj-button inner-padding="4px 16px" background-color="#f6f7f8" border-radius="8px" align="center" padding="0" href="https://www.semrush.com/lp/affiliate-program/en/?mkt_tok=NTE5LUlJWS04NjkAAAGRLT38TgxOb51aRE-IFIf2KdWT2u_eTHLspnUAwzUt7mMf_357ToiNH8zQEi33PXNQ02LjZlCOzoL0yPEZ5dybdfg8AcapkTkT12hqgP5AgeQDlQ">
+            <p style="margin: 0; color: #171a22; font-family: arial; line-height: 1.6;">Become an Affiliate
+              <img src="http://192.168.0.15:5500/assets/money.png" style="width: 19px; vertical-align: middle; padding-left: 3px;"/>
+            </p>  
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer section -->
+      <mj-section padding="25px 0 0" background-color="#ffffff">
+        <mj-column>
+          <mj-text font-size="14px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="0" line-height="1.6" align="center">
+            <a href="https://www.semrush.com/" class="footer-link">Semrush.com</a> reports and tools are used by the world’s smartest site owners and online<br> marketers. SEMrush Inc., USA, 800 Boylston Street, Suite 2475, Boston, MA 02199
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- copyright -->
+      <mj-section padding="10px 0 0" background-color="#ffffff">
+        <mj-column>
+          <mj-text font-size="12px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="0" line-height="1.6" align="center">
+            Copyright © Semrush. All rights reserved.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="10px 0 0px" background-color="#ffffff">
+      <mj-group css-class="footer-subs">
+        <mj-column>
+          <mj-text font-size="12px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="0" line-height="1.6" align="center">
+            <a href="#" class="sub-link">Unsubscribe</a>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text font-size="12px" font-family="Helvetica, Arial, sans-serif" font-weight="normal" color="#171a22" padding="0" line-height="1.6" align="center">
+            <a href="#" class="sub-link">Mail Preferences</a>
+          </mj-text>
+        </mj-column>
+        </mj-group>
+      </mj-section>
     </mj-wrapper>
+    <mj-section padding="10px 0"></mj-section>
   </mj-body>
 </mjml>
